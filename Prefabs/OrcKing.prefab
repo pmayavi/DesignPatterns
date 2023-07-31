@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7279958055335809949}
   - component: {fileID: 7932264014881777172}
   - component: {fileID: 3654904401816705972}
+  - component: {fileID: 1508508858698288548}
+  - component: {fileID: 3078803710118096615}
   m_Layer: 1
   m_Name: OrcKing
   m_TagString: Untagged
@@ -119,4 +121,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65c7133964a59d7498cb46dbca3ad56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: 
+  hp: 0
+--- !u!61 &1508508858698288548
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4603420701610196027}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 250.5, y: 278}
+    newSize: {x: 3.6, y: 2.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 250.5, y: 278}
+  m_EdgeRadius: 0
+--- !u!61 &3078803710118096615
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4603420701610196027}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 250.5, y: 278}
+    newSize: {x: 3.6, y: 2.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 250.5, y: 278}
+  m_EdgeRadius: 0
